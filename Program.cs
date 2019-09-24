@@ -110,7 +110,7 @@ namespace SortAndBinarySearch
 
                     else if (middle_value > value_of_search && track_middle != middle_value)
                     {
-                        high = mid + 1;
+                        high = mid - 1;
                         Console.WriteLine("In Else If Found this integer: " + middle_value + " But that's not it!");
                         track_middle = middle_value;
                     }
